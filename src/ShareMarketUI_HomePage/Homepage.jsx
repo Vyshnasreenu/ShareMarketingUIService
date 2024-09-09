@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import './market.css'
 import { useState } from 'react'
+// import stocklogo from '/'
 import Login_SignUpPages from './Login_SignUpPages'
 import { useDisclosure } from '@chakra-ui/react'
 const Homepage = () => {
@@ -15,8 +16,12 @@ const Homepage = () => {
         <section className='overflow-hidden'>
             <article className='bg-dark p-2 header-bar'>
                 <div className='row text-white my-2'>
-                    <div className='col-md-9'>
-                        Welcome Stocks
+                    <div className='col-md-9 text-start'>
+                        <h3>
+                            {/* <i class="fa-solid fa-arrow-trend-up fs-3"></i> */}
+                            <img src='LogoStock.png' alt='StockLogo' className='d-inline me-2' height={30} width={30}/>
+                           <span>Welcome Stocks</span>
+                        </h3>
                     </div>
                     <div className='col-md-3'>
                         <div className='d-flex justify-content-evenly text-white text-end'>
@@ -36,7 +41,7 @@ const Homepage = () => {
                         <div />
                         <div className='content-box text-white m-5'>
                             <h1 className='text-content'>
-                                Screen stocks like a pro with 
+                                Screen stocks like a pro with
                             </h1>
                             <h1 className='text-color'>sharpely Screener</h1>
                             <h4>Build almost any screen -
@@ -46,7 +51,7 @@ const Homepage = () => {
                                 <button
                                     className='p-2  btn text-dark bg-white '
                                     type='button'
-                                    onClick={onOpen}
+                                    onClick={clickHandler}
                                 >
                                     <b> Create your first screen for free --{">>"}</b>
                                 </button>

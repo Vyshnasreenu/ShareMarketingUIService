@@ -19,16 +19,16 @@
     height: 300px;
     align-content: center;
 }
-.content-box-2{
+
+.content-box-2 {
     background: rgb(2, 48, 101);
     height: 300px;
     /* margin: 10px; */
 
 }
-.box-content{
+
+.box-content {
     color: white;
-    /* padding-top: 30px; */
-    border: 1px solid groove;
 }
 
 .text-content {

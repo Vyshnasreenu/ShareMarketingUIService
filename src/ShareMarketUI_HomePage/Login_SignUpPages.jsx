@@ -36,7 +36,7 @@ const Login_SignUpPages = ({
                             <Button className='btn border text-white bg-dark'>Sign Up With  Google</Button>
                             <span className='text-center mt-2'>
                                 Already have an account?
-                                <Button type='button' className=' btn-link' onClick={clickHandler}>Login</Button>
+                                <button type='button' className='text-primary ms-1' onClick={clickHandler}>Login</button>
                             </span>
                         </ModalFooter>
                     </ModalContent>
@@ -63,6 +63,10 @@ const Login_SignUpPages = ({
                                 </Button>
                                 <div className='text-center p-2'>OR</div>
                                 <Button className='btn border text-white bg-dark'>Sign Up With  Google</Button>
+                                <span className='text-center mt-2'>New to sharpely?
+                                    <button type='button' className='text-primary ms-1' onClick={onOpen}>Register</button>
+
+                                </span>
                             </ModalFooter>
                         </ModalContent>
                     </Modal>
