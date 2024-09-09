@@ -1,0 +1,40 @@
+.header-bar {
+    position: sticky;
+    top: 10;
+    /* overflow: auto; */
+}
+
+.body-content {
+    /* border: 1px solid groove; */
+    height: 100vh;
+    /* overflow: auto; */
+    background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.87), rgba(0, 0, 0)), url(/public/dash_bg_main.webp);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    /* transform: scale(-1); */
+    background-position: center;
+}
+
+.content-box {
+    height: 300px;
+    align-content: center;
+}
+.content-box-2{
+    background: rgb(2, 48, 101);
+    height: 300px;
+    /* margin: 10px; */
+
+}
+.box-content{
+    color: white;
+    /* padding-top: 30px; */
+    border: 1px solid groove;
+}
+
+.text-content {
+    font-size: 50px;
+}
+
+.text-color {
+    color: gold;
+}
